@@ -226,7 +226,8 @@ button {
 .header_section{
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    /* background-image: url(../images/banner-bg.png); */
+    background-image: linear-gradient(to left, rgba(255,0,0,0.8), rgba(255,0,0,0.9));
     height: auto;
     background-size: 100%;
 }
@@ -476,16 +477,19 @@ button {
 .box_main h4.active{ color: #000 ; }
 .box_main:hover h4{ color: #000 ; }
 .box_main:hover .many_text{
+    font-size: 20px;
      color: #000 ;
 }
 .box_main .many_text.active{
+    font-size: 20px;
      color: #000 ;
 }
 
 .many_text{
     width: 100%;
+    font-size: 20px;
     float: left;
-    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
     text-align: center;
     margin-left: 0px;
@@ -500,17 +504,29 @@ button {
     padding-bottom: 60px;  
 }
 
+.content-ul {
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: circle;
+}
+
 .image_2{
     width: 100%;
     float: left;
 }
 .live_text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 100%;
     float: left;
     font-size: 32px;
     color: #020907;
     font-weight: bold;
     padding-top: 30px;
+}
+.header-data {
+    list-style-type: circle;
 }
 .lorem_text{
     width: 100%;
@@ -841,6 +857,7 @@ button {
     text-align: center;
     border-radius: 30px;
 }
+
 .footer_section{
     width: 100%;
     float: left;
@@ -856,6 +873,7 @@ button {
 }
 .customer_text{
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: left;
     font-size: 24px;
     color: #ffffff;
@@ -863,6 +881,7 @@ button {
 
 .footer_lorem_text{
     width: 80%;
+    margin-top: 0;
     float: left;
     font-size: 16px;
     color: #fefefe;
@@ -875,6 +894,7 @@ button {
     color: #fefefe;
     margin-left: 0px;
 }
+
 .social_icon{
     width: 100%;
     float: left;
