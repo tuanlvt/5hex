@@ -72,6 +72,7 @@ h6 {
      font-weight: normal;
      line-height: normal;
      color: #111111;
+     font-family: Georgia, 'Times New Roman', Times, serif;
      margin: 0
 }
 
@@ -428,38 +429,38 @@ button {
 .box_main.active{ background-color: #ffffff; }
 
 .internet_icon {
-    width: 21%;
+    width: 25%;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../images/internet-icon.png);
+    background-image: url(../images/img_location.png);
     height: 75px;
     background-repeat: no-repeat;
 }
 .box_main:hover .internet_icon{
-    background-image: url(../images/internet-icon1.png);
+    background-image: url(../images/img_location.png);
 }
 
 .internet_icon1 {
     width: 25%;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../images/television-icon1.png);
+    background-image: url(../images/img_location.png);
     height: 75px;
     background-repeat: no-repeat;
 }
 .box_main:hover .internet_icon1{
-    background-image: url(../images/television-icon1.png);
+    background-image: url(../images/img_location.png);
 }
 .internet_icon2 {
     width: 21%;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../images/mobile-icon.png);
+    background-image: url(../images/img_location.png);
     height: 75px;
     background-repeat: no-repeat;
 }
 .box_main:hover .internet_icon2{
-    background-image: url(../images/mobile-icon1.png);
+    background-image: url(../images/img_location.png);
 }
 
 .broadband_text{
